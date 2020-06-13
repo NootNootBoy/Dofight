@@ -11,8 +11,9 @@
 </head>
 <body>
 
+    <img class="blob" src="img/blob.png" alt="">
 
-    <img class="blob" src="/img/blob.png" alt="">
+
     <header>
     <!-- <img src="../img/logo.png" alt="" class="logo">
     <nav>
@@ -69,7 +70,33 @@
         <div class="wavesection1">
             <img src="img/waves1.png" alt="">
         </div>
-        <div class="section2"></div>
+        <div class="section2">
+        <div class="heightS2">
+
+        </div>
+        <div class="sectionrow">
+                <div class="sectioncol1">
+                
+                  
+                </div>
+                <div class="sectioncol2">
+                <div class="col1s2">
+                    <h2>Lorem Ipsum</h2>
+                    <p>blablablablablablablablablablablablablablablablablabla<br>
+                    blablablablablablablablablablablablablablablablablabla<br>
+                    blablablablablablablablablablablablablablablablablabla<br>
+                    blablablablablablablablablablablablablablablablablabla</p>
+                    <br>
+                    <a href="#" class="btnS1"><button>Participer</button></a>
+                    <a href="#" class="btnS1 two"><button>En savoir plus</button></a>
+                    </div>
+                <div class="col2">
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </main>
     <!-- <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
