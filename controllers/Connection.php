@@ -15,7 +15,7 @@ class Connection{
         session_start();
 
         if(isset($_SESSION['connect'])){
-            header('location: accueil.php');
+            header('location: home.php');
             exit();
         }
 

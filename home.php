@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -35,14 +39,22 @@
                         <div class="nav-wrapper">
                               <ul>
                                     <li><a href="#">Accueil</a></li>
-                                    <li><a href="#">Tournois</a></li>
+                                    <li><a href="tournois.php">Tournois</a></li>
                                     <li><a href="#">Contact</a></li>
                               </ul>
                         </div>
                   </nav>
                 <div class="container-button">
+                <?php
+		if(!isset($_SESSION['connect'])){ ?>
                   <a href="signup.php" class="cta"><button>Sign Up</button></a>
                   <a href="signin.php" class="cta2"><button>Sign In</button></a>
+                  <?php } else { ?>
+                    <p id="info">
+			Bonjour <?= $_SESSION['pseudo'] ?><br>
+			<a href="deconnexion.php">Déconnexion</a>
+        </p>
+        <?php } ?>
                   </div>
     </header>
     <main>

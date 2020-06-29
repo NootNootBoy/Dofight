@@ -46,12 +46,11 @@ class Inscription
         private function checkPseudo() {
 
             if(strlen($this->pseudo) >= 3 && strlen($this->pseudo) <= 16){
-            echo 'ok ';
             return true;
             }
             else{
-                echo "no";
-                return false;
+                echo "no pseudo trop short ou trop long";
+                exit();
             }
         }
     
@@ -71,7 +70,7 @@ class Inscription
                 return true;
                 }
                 else{
-                    echo "no";
+                    echo "no email n'est pas un email valide";
                     exit;
                 }
         }

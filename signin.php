@@ -43,7 +43,7 @@ session_start();
                         <input type="password" class="input" name="password">
                     </div>
                 </div>
-                <a href="">déja un compte?</a>
+                <a href="signup.php">déja un compte?</a>
                 <input type="submit" class="btn" value="se connecter">
             </form>
             <?php } else { ?>
